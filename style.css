@@ -1,0 +1,193 @@
+BODY {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: black;
+    
+}
+
+nav {
+    background-color: gray;
+    width: 100%;
+}
+
+.nav-item {
+    width: 30%;
+    height: 30%;
+}
+
+#logo {
+    width: 70%;
+}
+
+.nav-link {
+    color: black;
+}
+.nav-link:hover {
+    color: red;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.search {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.search input {
+    width: 60%;
+    min-height: 60%;
+    outline: none;
+    padding: 1em;
+}
+.h1{
+    padding-top:10%;
+    background-color: black;
+}
+
+
+.user {
+    width: 400px;
+}
+
+.card-img-top {
+    width: 100%;
+}
+
+.card-deck {
+    column-gap: 50px;
+    background-color: black;
+    row-gap: 50px;
+    padding-left: 250px;
+    padding-right: 50px;
+
+}
+.card {
+    box-shadow: 0 0px 20px 0 gray;
+}
+
+button {
+    padding: 16px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    background-color: maroon;
+    border: none;
+    border-radius: 15px;
+    transition: all 0.2s;
+    border-radius: 12px;
+    box-shadow: 0 0px 20px 0 black;
+}
+
+button:hover {
+    background-color: black;
+    color: maroon;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.contact {
+    background-color: black;
+    padding-top: 5%;
+    color: red;
+    text-align: center;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.2s;
+    color: gray;
+    border-radius: 30%;
+    /* background-color: red; */
+  
+    
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    background-color: gray;
+    color: red;
+  }
+
+
+#social{
+    justify-content: center;
+    align-content: center;
+    padding-top: 15%;
+    padding-right: 5%;
+    padding-left:10%;
+    background-color: black;
+}
+#about{
+    background-color: black;
+    color: maroon;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+
+.profile {
+    background-color: black;
+    color: gray;
+}
+
+.userImg,
+.userName,
+.charInfo {
+    padding-bottom: 3%;
+    padding-left: 6%;
+}
+
+.userImg {
+    width: 20%;
+    border: 2em;
+
+}
+/* 
+.container {
+    background-color: black;
+    max-width: 100%;
+    co
+} */
+
+.charInfo {
+    width: 50%;
+}
+
+.head {
+    font-weight: bold;
+    padding-bottom: 4%;
+    padding-left: 3%;
+}
+
+li {
+    padding-top: 2%;   
+    padding-bottom: 2%;
+    width: fit-content;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-table;
+    padding-left: 3%;
+    padding-right: 3%;
+}
